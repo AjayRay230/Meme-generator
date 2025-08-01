@@ -1,0 +1,150 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+main{
+  padding: 36px;
+}
+body{
+  font-family: sans-serif;
+  margin:0;
+  background-color: white;
+}
+.header{
+  width:90%;
+  margin-left:20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  display:flex;
+  align-items: center;
+  background: linear-gradient(90deg, #6e1ca3, #a013d8);
+  padding: 20px 40px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-image{
+  width:100px;
+  height: auto;
+  margin-right:15px;
+  border-radius: 10px;
+  background-color: #6e1ca3;
+}
+.header-title{
+  margin-left: 5px;
+  margin-right: auto;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.header-project{
+  text-align: left;
+  margin-right: 0;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 500;
+
+
+}
+.form{
+  display: grid;
+  grid-template:40px 40px/1fr 1fr;
+  gap: 17px;
+}
+
+.form-input{
+  font-family: sans-serif;
+   border-radius:5px;
+   border:1px solid #D5D4D8;
+   text-indent: 5px;
+}
+.form--button {
+ 
+  background: linear-gradient(90deg, #6e1ca3, #a134cc);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: sans-serif;
+  grid-column: 1 / -1;
+  
+}
+.meme-img{
+  max-width: 100%;
+  
+  margin-top: 40px;
+  margin-left: 80px;
+ max-height:300px;
+}
+.meme{
+  position: relative;
+  width:100%;
+  margin:auto;
+  max-width: 500px;
+}
+.meme--img{
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: block;
+}
+.meme--text{
+  position: absolute;
+  text-align: center;
+  left:50%;
+  transform: translate(-50%);
+  font-size: 2rem;
+  text-shadow:2px 2px 4px  #000 ;
+  color:white; 
+ 
+  
+
+  padding:0 10px;
+   width: 100%;
+
+}
+.meme--text.top{
+  top:10px;
+  
+}
+.meme--text.bottom{
+  bottom: 10px;
+}
+
