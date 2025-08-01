@@ -1,8 +1,4 @@
-Sure! Here's the complete `README.md` content — **all in one block**, ready for you to copy and paste directly into your GitHub repository:
 
----
-
-```markdown
 # 🖼️ Meme Generator
 
 A fun, interactive **Meme Generator App** built using **ReactJS** and powered by the **Imgflip API**. Users can input custom top and bottom text and generate random meme images from a large template pool.
@@ -74,7 +70,7 @@ Meme-generator/
    npm start
    ```
 
----
+
 
 ## 🛠️ Improvements To Add
 
@@ -83,23 +79,7 @@ Meme-generator/
 * Improve responsive styling
 * Deploy it on Vercel or Netlify
 
----
-
-
-
----
 
 ## 🌐 API Used
 
 * [Imgflip API](https://api.imgflip.com/get_memes)
-
----
-
-
-
-```
-
----
-
-You're all set! Just paste this into your `README.md` file in VS Code or GitHub's editor. Let me know if you'd like a badge or deploy instructions next.
-```
